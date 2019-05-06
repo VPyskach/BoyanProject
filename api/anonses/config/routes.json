@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anonses",
+      "handler": "Anonses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anonses/count",
+      "handler": "Anonses.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anonses/:id",
+      "handler": "Anonses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anonses",
+      "handler": "Anonses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anonses/:id",
+      "handler": "Anonses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anonses/:id",
+      "handler": "Anonses.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

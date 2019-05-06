@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "anonses",
+  "info": {
+    "name": "anonses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "default": "",
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "place": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "photosonfirstdisplays",
+  "info": {
+    "name": "photosonfirstdisplay",
+    "description": "Фото для прокрутки на головному екрані"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
