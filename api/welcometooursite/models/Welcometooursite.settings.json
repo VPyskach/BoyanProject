@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "welcometooursites",
+  "info": {
+    "name": "welcometooursite",
+    "description": "Короткий опис на головній сторінці (друга колонка)"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "text": {
+      "default": "",
+      "type": "text",
+      "required": true
+    }
+  }
+}
